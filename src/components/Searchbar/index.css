@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.inputTag {
+    border-radius: 12px;
+    width: 300px;
+    height: 30px;
+    margin-right: 10px;
+    padding-left: 20px;
+    border: none;
+    outline: 1px solid black;
+}
+
+.searchBtn {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.searchDiv {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:560px) {
+
+    .searchDiv {
+        flex-direction: column;
+    }
+
+
+}

@@ -1,0 +1,59 @@
+.mainDetail {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+span {
+    margin-right: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.card-Parent {
+
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+
+    padding: 20px;
+
+}
+
+.cmnMargin {
+    margin-right: 30px;
+    display: flex;
+}
+
+.cardParentChild {
+    width: 50%;
+    padding: 20px 80px;
+    border-radius: 80px;
+
+    background-color: rgb(255, 255, 255, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 30px;
+}
+
+.bolsCss {
+    font-weight: bold;
+}
+
+@media (max-width:1120px) {
+
+    .mainDetail {
+        flex-direction: column;
+    }
+
+    .card-Parent {
+
+        margin-top: 0px;
+    }
+
+    .cardParentChild {
+        width: 100%;
+    }
+}
